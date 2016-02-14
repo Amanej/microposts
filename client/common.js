@@ -1,3 +1,8 @@
+//Subscribe to Posts
+Meteor.subscribe("posts");
+Meteor.subscribe("ProfileImages");
+Meteor.subscribe("UserImages");
+
 Meteor.startup(function () {
     AccountsEntry.config({
       homeRoute: '/',                    // mandatory - path to redirect to after sign-out
